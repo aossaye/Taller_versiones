@@ -30,7 +30,7 @@ def load_data():
 # Cargar datos
 data = load_data()
 #print(data)
-
+## Adicioar 3 cometario
 # Graficar serie
 def plot_series(data, initial_date, proy):
     data_plot = data.loc[initial_date:]
