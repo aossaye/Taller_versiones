@@ -17,8 +17,8 @@ app.title = "Dashboard energia"
 
 server = app.server
 app.config.suppress_callback_exceptions = True
-
-## Adicionar cometario
+## Adiciar segundo cambio 
+## Adicionar primer cometario
 # Load data from csv
 def load_data():
     dt = pd.read_csv("datos_energia.csv")
